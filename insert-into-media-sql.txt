@@ -1,0 +1,24 @@
+//syntax für sql table media to insert data in the table// go media, than sql than copy this and change values
+codeReview10
+
+//book
+INSERT INTO `media`(`media_id`, `title`, `photo`, `author_id`, `ISBN`, `short_description`, `publish_date`, `publisher_id`, `type`, `status`) VALUES (1,'Mein Herz in zwei Welten','https://media.buch.de/img-adb/56949396-00-00.jpg',1,1000301,'"Trag deine Ringelstrumpfhosen mit Stolz. Führe ein unerschrockenes Leben. Fordere dich heraus. Lebe einfach."',9783805251068,1,'book','reserved');
+
+//book (better)
+INSERT INTO `media`(`media_id`, `title`, `photo`, `author_id`, `ISBN`, `short_description`, `publish_date`, `publisher_id`, `type`, `status`) VALUES (22,'Small World','https://media.buch.de/img-adb/28136407-00-00.jpg',22,4010232053770,'Mit fortschreitendem Alter rücken bisweilen Erinnerungen aus der Kindheit stärker ins Bewusstsein als die Erlebnisse des gerade vergangenen Tages. So geht es auch dem alternden Freigeist Konrad, den es zurück in den Schoß der Industriellen-Familie Senn zieht, bei der er seine Kindheit verbracht hat.',20110610,22,'DVD','available')
+
+
+//dc
+INSERT INTO `media`(`media_id`, `title`, `photo`, `author_id`, `ISBN`, `short_description`, `publish_date`, `publisher_id`, `type`, `status`) VALUES (13,'Neujahrskonzert 2018','https://media.buch.de/img-adb/81611955-00-00.jpg',13,0889854705725,'Neujahrskonzert 2018, Wiener Philharmoniker,Riccardo Muti',20180108,13,'cd','available');
+
+INSERT INTO user VALUES ('1','Celina Hunt','hunt@yahoo.com','celina123');
+INSERT INTO user VALUES ('2','Erich Zettel','erich@gmail.com','erich123');
+INSERT INTO user VALUES ('3','Marlene Schust','m.schust@yahoo.com','marlene123');
+INSERT INTO user VALUES ('4','Diego Santes','santes@gmx.de','diego123');
+INSERT INTO user VALUES ('5','Johanna Engelbert','engelbert@gmail.com','johanna123');
+INSERT INTO user VALUES ('6','Daniel Egger','egger.d@gmx.de','daniel123');
+INSERT INTO user VALUES ('7','Michael Bauer','bauer@yahoo.com','michael123');
+INSERT INTO user VALUES ('8','David Green','d.green@gmail.com','david123');
+INSERT INTO user VALUES ('9','Andrea Richter','richter@aol.de','andrea123');
+INSERT INTO user VALUES ('10','Li Ming','ming@yahoo.com','li123');
+INSERT INTO user VALUES ('11','Kevin Wood','wood@gmx.at','kevin123');
